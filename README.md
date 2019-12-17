@@ -4,7 +4,7 @@ for raspberry pi B+ boards until pi3
 
 created as a companion-lib for [nimgpiod](https://github.com/nais314/nimgpiod)  
   
-**optionally depends on bcm_host lib - it is the new preferred way for hardware detection by raspberrypi.org**
+**optionally depends on [bcm_host lib](https://github.com/nais314/bcm_host) - it is the new preferred way for hardware detection by raspberrypi.org**
 
 ### compiler definitions:
 **-d:dependency_free** : do not import bcm_host  
